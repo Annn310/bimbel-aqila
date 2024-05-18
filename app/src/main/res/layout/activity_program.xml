@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1609dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/requler" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Program Reguler"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:fontFamily="@font/montserrat"
+        android:padding="16dp"
+        android:text="Bimbel Aqila menyediaakan Program Reguler untuk TK, SD, SMP, dan SMA.Durasi 1 Pertemuan : 90 Menit"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1609dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="420dp"
+        app:srcCompat="@drawable/privat"/>
+
+    <TextView
+        android:id="@+id/TitleimageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="377dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Program Privat"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionimageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="368dp"
+        android:fontFamily="@font/montserrat"
+        android:padding="16dp"
+        android:text="Bimbel Aqila menyediakan Program Privat untuk TK, SD, SMP, dan SMA.Durasi 1 Pertemuan : 90 Menit"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Bimbel Aqila</string>
+    <string name="started_title">
+        <br><b>Formulir Pendaftaran
+            Bimbel Aqila Semarang</b></br>
+    </string>
+    <string name="started_sub_title">
+        <br><b>Bimbel Calistung,  SD, SMP, SMA Terbaik di Kota Semarang Dengan guru-guru Les Terbaik</b></br>
+        <br><b>Pilihan Terbaik </b> Untuk Meningkatkan Prestasi Anak.</br>
+    </string>
+    <string name="btn_masuk">Masuk ke halaman Dashboard</string>
+    <string name="btn_login">Login</string>
+    <string name="login_title">Login to app</string>
+    <string name="login_sub_title">
+        <font color="#00C9B8"><b>Login</b></font>
+        if you already have an account.
+    </string>
+    <string name="login_email">Your email or username</string>
+    <string name="login_password">Your Password</string>
+    <string name="login_forgot_pw">Forget Password?</string>
+    <string name="login_havent_account">Bimbel Aqila Semarang</string>
+    <string name="register_title">register_title</string>
+    <string name="register_password">Buat Password</string>
+    <string name="Register_title">Formulir Pendaftaran</string>
+    <string name="absensi_guru">Absensi Guru</string>
+    <string name="register_username">Buat Username</string>
+    <string name="register_have_account">
+        I already have an account
+        <font color="#00C988"><b>Login</b></font>
+    </string>
+    <string name="item_label">Jenis kelamin</string>
+    <string name="kelas">kelas</string>
+    <string name="register_fulname">your fullname</string>
+    <string name="register_email">your email</string>
+    <string name="siswa">Nama Siswa</string>
+    <string name="til_alamat">Alamat</string>
+    <string name="til_asal_sekolah">Asal Sekolah</string>
+    <string name="mapel">Mapel</string>
+    <string name="program">Program</string>
+    <string name="hari">Permintaan Hari Les</string>
+    <string name="jam">Permintaan Jam Les</string>
+    <string name="nama_guru">Nama Guru</string>
+    <string name="keterangan">keterangan Absensi</string>
+    <string name="Dibuka_Pendaftaran">started_title</string>
+    <string name="ortu">Next</string>
+    <string name="Data">Data Orang Tua</string>
+    <string name="ayah">Nama Ayah</string>
+    <string name="ibu">Nama Ibu</string>
+    <string name="Pekerjaan">Pekerjaan Orang Tua</string>
+    <string name="wa">Nomor Telepon</string>
+    <string name="Alamat">Alamat Lengkap</string>
+    <string name="Required">Required</string>
+    <string name="Wajib">Wajib Di isi</string>
+    <string name="password">Minimal 8 Karakter</string>
+    <string name="signup">Sign Up</string>
+</resources>
